@@ -1,0 +1,21 @@
+{
+  "name": "Project Name",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#2b5182",
+  "background_color": "#fafbfc"
+}
