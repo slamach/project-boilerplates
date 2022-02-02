@@ -3,3 +3,4 @@
 
 ## Frontend
 - [Webpack Static Website Boilerplate](/webpack-static-boilerplate)
+- [Webpack WordPress Theme Boilerplate](/webpack-wordpress-boilerplate)
