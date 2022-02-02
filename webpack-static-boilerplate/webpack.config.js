@@ -13,7 +13,6 @@ const isDev = process.env.NODE_ENV === 'development';
 const config = {
   entry: ['./js/index.js', './scss/style.scss'],
   outputDir: 'build',
-  extractStyles: true,
   ignoreMissingHtmlResources: false,
   devServerPort: 3000,
 };
@@ -69,9 +68,7 @@ module.exports = {
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
-          ...(config.extractStyles
-            ? [MiniCssExtractPlugin.loader]
-            : ['style-loader']),
+          MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
             options: {
@@ -135,13 +132,9 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: 'static' }],
     }),
-    ...(config.extractStyles
-      ? [
-          new MiniCssExtractPlugin({
-            filename: isDev ? 'css/style.css' : 'css/style.[contenthash:8].css',
-          }),
-        ]
-      : []),
+    new MiniCssExtractPlugin({
+      filename: isDev ? 'css/style.css' : 'css/style.[contenthash:8].css',
+    }),
     ...(!isDev ? [new WebpackBar()] : []),
   ],
   optimization: {
