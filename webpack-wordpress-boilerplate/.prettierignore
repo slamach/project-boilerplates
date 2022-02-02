@@ -1,0 +1,15 @@
+# Dependencies
+/node_modules/
+
+# Production
+/build/
+
+# IDE
+.idea/
+.vscode/
+
+# Misc
+.DS_Store
+
+# File Extensions
+*.php
