@@ -1,6 +1,5 @@
 {
   "name": "project-name",
-  "author": "Dmitry Sviridov",
   "private": true,
   "scripts": {
     "prepare": "husky install",
