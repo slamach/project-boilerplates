@@ -1,5 +1,5 @@
-# Шаблоны для новых проектов
-Шаблоны для быстрого начала работы над новыми проектами :star: 
+# Project boilerplates
+Boilerplates for getting started on new projects quickly :star: 
 
 ## Frontend
 - [Universal Npm Scripts Boilerplate](https://github.com/slamach/npm-scripts-boilerplate)
