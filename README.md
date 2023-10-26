@@ -2,7 +2,7 @@
 Boilerplates for getting started on new projects quickly :star: 
 
 ## Frontend
-- [Universal Npm Scripts Boilerplate](https://github.com/slamach/npm-scripts-boilerplate)
-- [Webpack Static Website Boilerplate](https://github.com/slamach/webpack-static-boilerplate)
-- [Webpack WordPress Theme Boilerplate](https://github.com/slamach/webpack-wordpress-boilerplate)
 - [CRA Redux Boilerplate](https://github.com/slamach/cra-template-redux)
+- [Universal Npm Scripts Boilerplate](https://github.com/slamach/npm-scripts-boilerplate)
+- _[Webpack Static Website Boilerplate (Archived)](https://github.com/slamach/webpack-static-boilerplate)_
+- _[Webpack WordPress Theme Boilerplate (Archived)](https://github.com/slamach/webpack-wordpress-boilerplate)_
